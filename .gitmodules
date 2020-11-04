@@ -1,0 +1,3 @@
+[submodule "clhelper"]
+	path = clhelper
+	url = https://github.com/urlordjames/clhelper.git

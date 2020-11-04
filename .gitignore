@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+caesarcl
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
