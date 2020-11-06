@@ -1,6 +1,6 @@
 #include <CL/cl.hpp>
 #include <iostream>
-#include "clhelper.cpp"
+#include "clhelper.h"
 
 int main() {
   cl::Device device = getFirstDevice();

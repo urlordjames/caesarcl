@@ -1,4 +1,4 @@
-{ pkgs ? import (fetchTarball https://github.com/nixos/nixpkgs/archive/nixos-20.09.tar.gz) {} }:
+{ pkgs ? import <nixpkgs> {} }:
 pkgs.mkShell {
   buildInputs = with pkgs; [
     gcc
