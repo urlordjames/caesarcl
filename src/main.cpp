@@ -21,8 +21,7 @@ int main() {
   }
 
   char instring[] = "super secret caesar cipher";
-  //le dumb hack
-  int shift[] = {1};
+  int shift = 1;
 
   cl::Buffer strBuf(context, CL_MEM_READ_WRITE | CL_MEM_USE_HOST_PTR, sizeof(instring), &instring);
   cl::Buffer argument(context, CL_MEM_READ_ONLY | CL_MEM_USE_HOST_PTR, sizeof(int), &shift);
